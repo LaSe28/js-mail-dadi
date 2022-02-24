@@ -18,7 +18,6 @@ btnStart.addEventListener('click', function(){
     } else {
         result.innerHTML = "Bene, sei autorizzato!";
     }
-
 }
 )
 
