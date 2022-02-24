@@ -4,8 +4,8 @@ let text = document.querySelector("#text")
 
 btnLaunch.addEventListener("click", function(){
     
-    let pcLaunch = Math.floor(Math.random() * (7 - 1) + 1);
-    let playerLaunch = Math.floor(Math.random() * (7 - 1) + 1);
+    let pcLaunch = Math.floor(Math.random() * 6 + 1);
+    let playerLaunch = Math.floor(Math.random() * 6 + 1);
     result.innerHTML="Dado del PC <br>" + ' ' + pcLaunch + ' <br>' + "Dado dell'utente" + ' <br>' + playerLaunch
     
     if(pcLaunch > playerLaunch){   
